@@ -1,0 +1,13 @@
+
+#footer
+{
+    background: white;
+    font-size: 25px;
+    padding: 10px;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    text-shadow: 2px 2px skyblue;
+    box-shadow: inset 5px 5px 15px grey;
+}
+
