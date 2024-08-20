@@ -1,13 +1,47 @@
 
 #footer
 {
-    background: white;
+    background: cyan;
     font-size: 25px;
     padding: 10px;
     position: fixed; 
     bottom: 0;
     width: 100%;
-    text-shadow: 2px 2px skyblue;
+    text-shadow: 2px 2px rgb(244, 145, 6);
     box-shadow: inset 5px 5px 15px grey;
+    color: red;
+    line-height: 32px;
 }
 
+.new-amsterdam-regular { font-family: "New Amsterdam", sans-serif; }
+
+body
+{
+ background-color:rgba(255, 166, 0, 0.768);    
+}
+
+#header
+{
+    background-color: skyblue;
+    margin-top: 0;
+    padding: 10px;
+    box-shadow: 5px 5px 15px blue;
+    color: aqua;
+}
+
+#note
+{
+    font-family: "New Amsterdam", sans-serif;
+    letter-spacing: 6px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#start-button
+{
+    font-family: "Nova Square", sans-serif;
+    margin-top: 40px;
+    font-weight: bold;
+    width: 200px;
+    letter-spacing: 5px;
+}

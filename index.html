@@ -13,6 +13,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=New+Amsterdam&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -23,18 +26,19 @@
 <br>
 </div>
 
-<span >
+<div>
   <br>
-  <button class="btn btn-info btn-lg" onclick="startClassification();">Start</button>
+  <button id="start-button" class="btn btn-info btn-lg" onclick="startClassification();">Start</button>
   <h3 id="result_label">I can hear </h3>
   <h4 id="result_accuracy">Accuracy - </h4>
   <br>
   <img src="IlkL.gif" id="ear1" width="350" height="300">
-</span>
+</div>
 <div id="footer">
 <label>Developed By: Sidharth Udharaju</label>
 </div>
       </center>
+      <script src="style.css"></script>
 <script src="main.js"></script>
   </body>
 </html>
